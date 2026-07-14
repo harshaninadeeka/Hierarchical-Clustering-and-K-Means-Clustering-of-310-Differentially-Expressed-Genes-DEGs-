@@ -202,10 +202,10 @@ axis(1,at=1:8,labels=colnames(clust_data),las=2)
 max(clusters)
 #save content of one cluster to file
 library(openxlsx)
-write.xlsx(cl1,file="cl1-Dendrogram.xlsx")
-write.xlsx(cl2,file="cl2-Dendrogram.xlsx")
-write.xlsx(cl3,file="cl3-Dendrogram.xlsx")
-write.xlsx(cl4,file="cl4-Dendrogram.xlsx")
+write.xlsx(cl1,file="cl1-Dendrogram.xlsx",rowNames = TRUE)
+write.xlsx(cl2,file="cl2-Dendrogram.xlsx",rowNames = TRUE)
+write.xlsx(cl3,file="cl3-Dendrogram.xlsx",rowNames = TRUE)
+write.xlsx(cl4,file="cl4-Dendrogram.xlsx",rowNames = TRUE)
 
 
 
@@ -271,10 +271,10 @@ axis(1,at=1:8,labels=colnames(clust_data),las=2)
 
 #save cluster files
 library(openxlsx)
-write.xlsx(clk1,file="clk1-K means clustering-cluster1.xlsx")
-write.xlsx(clk2,file="clk1-K means clustering-cluster2.xlsx")
-write.xlsx(clk3,file="clk1-K means clustering-cluster3.xlsx")
-write.xlsx(clk4,file="clk1-K means clustering-cluster4.xlsx")
+write.xlsx(clk1,file="clk1-K means clustering-cluster1.xlsx",rowNames = TRUE)
+write.xlsx(clk2,file="clk1-K means clustering-cluster2.xlsx",rowNames = TRUE)
+write.xlsx(clk3,file="clk1-K means clustering-cluster3.xlsx",rowNames = TRUE)
+write.xlsx(clk4,file="clk1-K means clustering-cluster4.xlsx",rowNames = TRUE)
 
 
 
