@@ -1,2 +1,3 @@
 # Hierarchical-Clustering-and-K-Means-Clustering-of-310-Differentially-Expressed-Genes-DEGs-
 This analysis compares two widely used unsupervised machine learning methods—Hierarchical Clustering and K-Means Clustering (K = 4)—to investigate expression patterns among 310 Differentially Expressed Genes (DEGs) identified from the RNA-Seq analysis of the airway dataset.
+Both methods grouped the DEGs into four clusters, allowing the identification of genes with similar expression profiles across untreated and dexamethasone-treated samples. Although the clustering results were similar, each method provides different biological insights.
